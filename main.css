@@ -1,0 +1,452 @@
+* {
+    box-sizing: border-box;
+    font-family: Open Sans;
+    color: black;
+    font-size: 100%;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+body {
+    background-image: url(images/2VDmEEB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 20%;
+    opacity: 0.9;
+}
+
+
+/*---------------*/
+
+
+/*navigation and top part*/
+
+
+/*----------------*/
+
+header {
+    margin-top: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.js-heading {
+    text-align: center;
+    font-family: Luckiest Guy;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.js-introduction {
+    text-align: center;
+}
+
+
+/*--------------*/
+
+
+/*choices part*/
+
+
+/*--------------*/
+
+section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.categories {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0.5%;
+    cursor: pointer;
+}
+
+.js-content {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.js-vloggers {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 31%;
+    background-color: black;
+    height: 200px;
+    margin: 0.5%;
+    vertical-align: top;
+    /*    border: 0.5px solid black;*/
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*-----*/
+
+
+/*results*/
+
+
+/*------*/
+
+.js-result {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bullets {
+    list-style: none;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+.js-result .list span {
+    position: absolute;
+    top: 49%;
+    right: 46.5%;
+    font-size: 40px;
+}
+
+.js-result .list:hover span {
+    top: 44.5%;
+    right: 43%;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.images {
+    width: 100%;
+    border: 20px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 1);
+    opacity: 0.9;
+}
+
+.title {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+/*--------*/
+
+
+/*userinput*/
+
+
+/*---------*/
+
+#userinput {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.submitfind {
+    background-image: url(images/transparent.jpg);
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+
+/*-----*/
+
+
+/*Modal*/
+
+
+/*-------------*/
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    color: white;
+    background-color: white;
+    margin: 20% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    width: 50%;
+    border: 5px solid white;
+    font-size: 20px;
+    /* Could be more or less, depending on screen size */
+}
+
+.modal-content h1 {
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.modal-content ol {
+    margin: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+    background: none!important;
+    border: none;
+    margin-left: 2%;
+    padding: 0!important;
+    font: inherit;
+    cursor: pointer;
+    color: white;
+}
+
+#js-back {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    padding-left: 46.5%;
+}
+
+@media only screen and (max-width: 900px) {
+    .js-dj {
+        width: 100%;
+    }
+    .js-result .list {
+        width: 80%;
+    }
+}
+
+
+/*LIST OF ALL BACKGROUND IMAGE FOR EACH CREATOR*/
+
+.js-vloggers div {
+    background-image: url(images/transparent.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+    padding-top: 75px;
+    opacity: 0.7;
+}
+
+.js-vloggers:hover {
+    opacity: 0.9;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: bolder;
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.CaseyN {
+    background-image: url(images/daily/casey.jpg);
+}
+
+.PewDiePie {
+    background-image: url(images/game/pewdiepie-wallpaper_2.jpg)
+}
+
+.AnnaA {
+    background-image: url(images/daily/anna-akana-loose-ends.jpg)
+}
+
+.SniperW {
+    background-image: url(images/game/sniperwolf.jpg)
+}
+
+.SamK {
+    background-image: url(images/travel/SamK.jpg)
+}
+
+.JakeP {
+    background-image: url(images/daily/jake-paul.png)
+}
+
+.LoganP {
+    background-image: url(images/daily/logan.png)
+}
+
+.MarquesB {
+    background-image: url(images/tech/mkbhd.png)
+}
+
+.MarkW {
+    background-image: url(images/food/markw.jpg)
+}
+
+.Migrationology {
+    background-image: url(images/food/markw.jpg)
+}
+
+.MoV {
+    background-image: url(images/daily/mov.jpg)
+}
+
+.RomanA {
+    background-image: url(images/daily/RomanA.jpg)
+}
+
+.JonathanM {
+    background-image: url(images/tech/JoM.jpg)
+}
+
+.UnboxT {
+    background-image: url(images/tech/unboxing2.png)
+}
+
+.AustinE {
+    background-image: url(images/tech/austine.jpg)
+}
+
+.KrystalK {
+    background-image: url(images/tech/KrystalK.jpg)
+}
+
+.DaveL {
+    background-image: url(images/tech/Dave-Lee.jpg)
+}
+
+.UrAvgConsumer {
+    background-image: url(images/tech/UrAvgConsumer.jpeg)
+}
+
+.LTT {
+    background-image: url(images/tech/linus.jpg)
+}
+
+.DavidZ {
+    background-image: url(images/tech/davidZ.jpg)
+}
+
+.Markiplier {
+    background-image: url(images/game/Markiplier.jpg)
+}
+
+.UberHaxorNova {
+    background-image: url(images/game/UberH.jpg)
+}
+
+.Sp4zie {
+    background-image: url(images/game/sp4zie.jpg)
+}
+
+.Muselk {
+    background-image: url(images/game/muselk.jpg)
+}
+
+.Shel {
+    background-image: url(images/food/shel.jpg)
+}
+
+.MattyM {
+    background-image: url(images/food/matt.jpg)
+}
+
+.JamieO {
+    background-image: url(images/food/JamieO.jpg)
+}
+
+.KevinC {
+    background-image: url(images/food/kevin-in-kitchen-smiling2.jpg)
+}
+
+.Deliciouslyella {
+    background-image: url(images/food/ella_3213450b.jpg)
+}
+
+.MikeC {
+    background-image: url(images/travel/MikeC.jpg)
+}
+
+.AlexC {
+    background-image: url(images/travel/AlexC.jpg)
+}
+
+.CarlosC {
+    background-image: url(images/travel/Carlos%20Costa.jpg)
+}
+
+.VagaB {
+    background-image: url(images/travel/VagaB.jpg)
+}
+
+.HeyN {
+    background-image: url(images/travel/Nadine.jpg)
+}
+
+.FFL {
+    background-image: url(images/travel/ffl.jpg)
+}
+
+.Sonia {
+    background-image: url(images/travel/soniastravels.jpg)
+}
+
+.SamE {
+    background-image: url(images/travel/SamuelElk.jpg)
+}
