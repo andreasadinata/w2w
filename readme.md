@@ -1,9 +1,13 @@
 #YouTube API - Find related tracks by artist
 Thinkful (https://www.thinkful.com/) first portofolio project. Using YouTube's API to find selected artist's preview songs.
 
-![home-page](https://andreasadinata.github.io/find-a-dj-api-capstone-project/home-page-screenshot.png)
+![home-page](https://github.com/andreasadinata/w2w/blob/master/screenshots/Screenshot%202017-07-23%2000.24.37.png)
 
-![results-page](https://andreasadinata.github.io/find-a-dj-api-capstone-project/result-screenshot.png)
+![user-input](https://github.com/andreasadinata/w2w/blob/master/screenshots/Screenshot%202017-07-23%2000.25.32.png)
+
+![section-example](https://github.com/andreasadinata/w2w/blob/master/screenshots/daily-vlogs-section.png)
+
+![find-result](https://github.com/andreasadinata/w2w/blob/master/screenshots/selected-results.png)
 
 ##Introduction
 The W2W is an app dedicated to all of the creators or the people who produces videos as their main jobs. I have always been interested in the movie making.
