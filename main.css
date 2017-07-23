@@ -270,15 +270,6 @@ section {
     padding-left: 46.5%;
 }
 
-@media only screen and (max-width: 900px) {
-    .js-dj {
-        width: 100%;
-    }
-    .js-result .list {
-        width: 80%;
-    }
-}
-
 
 /*LIST OF ALL BACKGROUND IMAGE FOR EACH CREATOR*/
 
@@ -449,4 +440,25 @@ section {
 
 .SamE {
     background-image: url(images/travel/SamuelElk.jpg)
+}
+
+
+/*responsiveness*/
+
+@media only screen and (max-width: 900px) {
+    .js-vloggers {
+        width: 44%;
+        margin: 1.5%;
+    }
+    .bullets {
+        width: 44%;
+        margin: 1.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .js-vloggers,
+    .bullets {
+        width: 98%;
+    }
 }
