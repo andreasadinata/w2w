@@ -462,3 +462,23 @@ section {
         width: 98%;
     }
 }
+
+@media only screen and (min-width: 1800px) {
+    .js-vloggers,
+    .js-vloggers div {
+        height: 400px;
+    }
+    .js-vloggers div {
+        padding-top: 150px;
+        font-size: 46px;
+    }
+    .categories {
+        font-size: 25px;
+    }
+    .js-heading {
+        font-size: 70px;
+    }
+    .js-introduction {
+        font-size: 20px;
+    }
+}
